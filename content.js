@@ -115,6 +115,7 @@ function generateButtonExploitDB() {
                               border-radius: inherit;    
                               overflow: hidden;    
                               -webkit-mask-image: -webkit-radial-gradient(white, black);    
+                              mask-image: -webkit-radial-gradient(white, black);
                               transform: scaleY(1.05) scaleX(1.005) rotate(-.35deg);    
                             }    
                               
@@ -142,6 +143,7 @@ function generateButtonExploitDB() {
                               background-color: var(--button-background);    
                               overflow: hidden;    
                               -webkit-mask-image: -webkit-radial-gradient(white, black);    
+                              mask-image: -webkit-radial-gradient(white, black);
                             }    
                               
                             .glow-button:hover span:before {    
