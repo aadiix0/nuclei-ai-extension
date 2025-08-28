@@ -4,7 +4,14 @@
   "version": "1.0",
   "author": "parth@projectdiscovery.io",
   "background": {
-    "service_worker": "background.js"
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nuclei-ai-template-generator@projectdiscovery.io"
+    }
   },
   "permissions": [
     "tabs",

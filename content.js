@@ -661,7 +661,7 @@ function sendSelectedTextToNuclei(selectedText) {
     }    
 }    
     
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {  
+browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.message === 'TabUpdated') {  
       if (window.location.hostname === "hackerone.com") {  
         generateButton();  
